@@ -1,0 +1,171 @@
+* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 20px Arial, Helvetica, sans-serif;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font: 25px Arial, Helvetica, sans-serif;
+}
+
+/* Estilos genéricos */
+body {
+    background-color: #F5EFE6;
+    font: 20px Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+
+header {
+    height: 350px;
+    width: 2000px;
+    background-image: url(../Media/des2.jpg);
+    background-position: 0;
+    background-size: cover;
+    color: #E8DFCA ;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: left;
+    padding: 240px 30px 0px 40px;
+    border: #E8DFCA ;
+    
+}
+
+.content-info {
+    background-color: #F5EFE6;
+    width: 500px;
+    margin: 50px 50px 130px 40px;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid #E8DFCA;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+
+}
+
+
+.menu {
+background-color: #E8DFCA;
+display: flex;
+width: 1955px;
+padding: 10px 20px;
+position: sticky;
+top: 0;
+}
+.menu ul .nav-item {
+    background-color: #E8DFCA;
+    height: 100px;
+    width: 100%;
+    padding: 10px ;
+    text-align: left ;
+    display: inline;
+
+}
+.contenedorHorizontal {
+    display: flex;
+    flex-direction: row;
+
+  
+}
+
+.imagenIni {
+   
+   padding: 50px 50px 130px 40px; ;
+
+}
+
+iframe {
+    padding: 65px 20px;
+ }
+
+.contacto {
+    height: 350px;
+    width: 400px;
+    background-image: url(../Media/mail.png);
+    background-size: cover;
+    color: darkgray;
+    padding: 0px;
+    font: 20px Arial, Helvetica, sans-serif;
+
+}
+
+header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-contact {
+    background: #FFF;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);  
+}
+
+.contact {
+    padding: 20px;
+    overflow: hidden;
+    color: gray;
+}
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;   
+}
+  
+  .contact label {
+    font-weight: 700;
+}
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #ff165d;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+}
+  
+  .contact textarea {
+    min-height: 100px;
+}
+  
+  input[type='submit'] {
+    padding: 10px;
+    background: #ff165d;
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* pointer-events: none; */
+    cursor: pointer; 
+}
+
+/* Estilos inicio */
+
+/* Estilos quienes somos */
+
+/* Estilos reservas */
+
+.fotosServi {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.imagenIni {
+    padding: 50px;
+}
