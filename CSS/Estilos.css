@@ -175,3 +175,19 @@ header span {
     
 }
 
+.container  {
+    padding: 50px;
+    border: 100px;
+    
+}
+
+.about-us-image {
+    max-height: 9rem;
+}
+
+.about-us-names {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background-color: ;
+}
