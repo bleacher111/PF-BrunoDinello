@@ -1,3 +1,12 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap-grid";
+@import "bootstrap/scss/bootstrap-reboot";
+@import "bootstrap/scss/bootstrap-utilities";
+@import "bootstrap/scss/bootstrap-utilities";
+@import "partials/_variables";
+@import "partials/_reset";
+@import "partials/_variables";
+
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
@@ -11787,7 +11796,3 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
-
-.footer-custom {
-  padding-bottom: 1rem;
-}
