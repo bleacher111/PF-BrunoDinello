@@ -10,38 +10,52 @@
     <title>Quienes-Somos</title>   
 
     <!--Estilos CSS --> 
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
     
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">DESERTRIP S.A.</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./quienes-somos.html">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">DESERTRIP S.A. <span class="animacion"></span><div class="sun"></div></a>
+      <details class="mobile-menu">
+          <summary>&#9776;</summary>
+          <ul class="nav-items mobile-items">
+              <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="./contacto.html">Contacto</a>
+              </li>
+          </ul>
+      </details>
+      <ul class="nav-items desktop-items">
+          <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="./contacto.html">Contacto</a>
+          </li>
+      </ul>
+  </nav>
 </header>    
 
 
