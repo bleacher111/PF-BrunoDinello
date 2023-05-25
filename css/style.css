@@ -353,3 +353,14 @@ details[open] .mobile-items {
   }
 }
 
+@media (max-width: 767px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Añade esta propiedad para ajustar la imagen */
+}
