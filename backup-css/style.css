@@ -1,3 +1,48 @@
+/* ESTILOS PROPIOS */
+
+/* Media queries */
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+  .container {
+    padding: 0 10px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .desktop-items {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tabletas */
+  .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Estilos para escritorio */
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
 /* Estilos generales */
 body {
   font-family: Arial, sans-serif;
@@ -120,78 +165,24 @@ footer {
   right: 0;
 }
 
-/* Media queries */
+ /* Menu desplegable */
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-  .container {
-    padding: 0 10px;
-  }
 
-  .nav-items {
-    display: none;
-  }
-
-  .desktop-items {
-    display: flex;
-  }
-
-  .mobile-menu {
-    display: block;
-  }
-
-  /* Agrega aquí tus estilos específicos para dispositivos móviles */
-}
-
-/* Estilos para tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-lg-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  /* Agrega aquí tus estilos específicos para tablets */
-}
-
-/* Estilos para pantallas de escritorio */
-@media (min-width: 992px) {
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-
-  .col-lg-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  /* Agrega aquí tus estilos específicos para pantallas de escritorio */
-}
-
-/* Menu desplegable */
-
-/* Estilos para dispositivos móviles */
 @media only screen and (max-width: 768px) {
-  /* Estilos para pantallas menores o iguales a 768px */
+  /* estilos para pantallas menores o iguales a 768px */
   .navbar-brand {
     font-size: 1.5rem;
   }
-
-  /* Agrega aquí tus estilos específicos para dispositivos móviles */
 }
 
-/* Estilos para pantallas de escritorio */
+
+
 @media only screen and (min-width: 992px) {
   .navbar-brand {
     font-size: 38px;
   }
-
-  /* Agrega aquí tus estilos específicos para pantallas de escritorio */
 }
 
-/* Estilos generales */
 * {
   box-sizing: border-box;
 }
@@ -250,13 +241,14 @@ body {
 
 @media (max-width: 768px) {
   .mobile-menu {
-    display: block;
+      display: block;
   }
 
   .desktop-menu {
-    display: none;
+      display: none;
   }
 }
+ 
 
 .mobile-menu ul {
   background-color: #343a40;
@@ -277,10 +269,9 @@ body {
   padding: 0;
 }
 
-@media (min-width: 769px) {
-  /* Cambia la media query a min-width para aplicar el estilo solo en pantallas más grandes */
+@media (min-width: 769px) { /* Cambia la media query a min-width para aplicar el estilo solo en pantallas más grandes */
   .nav-items {
-    flex-direction: row; /* Cambia flex-direction a row en pantallas más grandes */
+      flex-direction: row; /* Cambia flex-direction a row en pantallas más grandes */
   }
 }
 
@@ -294,13 +285,25 @@ body {
 
 @media (max-width: 768px) {
   .mobile-items {
-    display: flex; /* Muestra el menú móvil en dispositivos móviles */
+      display: flex; /* Muestra el menú móvil en dispositivos móviles */
   }
 
   .desktop-items {
-    display: none; /* Oculta el menú de escritorio en dispositivos móviles */
+      display: none; /* Oculta el menú de escritorio en dispositivos móviles */
   }
 }
+
+
+  .card-img-top {
+    object-fit: cover;
+  }
+
+  @media (max-width: 767px) {
+    .card-img-top {
+      height: 200px;
+    }
+  }
+
 
 .mobile-items {
   max-height: 0;
@@ -311,6 +314,8 @@ body {
 details[open] .mobile-items {
   max-height: 300px;
 }
+
+
 
 .sun {
   display: inline-block;
@@ -352,4 +357,9 @@ details[open] .mobile-items {
     transform: translateY(0) rotate(360deg);
   }
 }
+
+
+
+
+
 
