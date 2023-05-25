@@ -257,39 +257,38 @@ body {
   position: absolute;
   right: 0;
   top: 100%;
-  width: 100%; /* Cambia el ancho al 100% para que ocupe toda la pantalla en dispositivos móviles */
+  width: 100%; 
   z-index: 10;
 }
 
 .nav-items {
   display: flex;
-  flex-direction: column; /* Añade flex-direction: column para mostrar el menú como columna */
+  flex-direction: column; 
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-@media (min-width: 769px) { /* Cambia la media query a min-width para aplicar el estilo solo en pantallas más grandes */
+@media (min-width: 769px) { 
   .nav-items {
-      flex-direction: row; /* Cambia flex-direction a row en pantallas más grandes */
+      flex-direction: row; 
   }
 }
 
 .mobile-items {
-  display: none; /* Oculta el menú móvil por defecto */
+  display: none; 
 }
 
 .desktop-items {
-  display: flex; /* Muestra el menú de escritorio por defecto */
-}
+  display: flex; 
 
 @media (max-width: 768px) {
   .mobile-items {
-      display: flex; /* Muestra el menú móvil en dispositivos móviles */
+      display: flex; 
   }
 
   .desktop-items {
-      display: none; /* Oculta el menú de escritorio en dispositivos móviles */
+      display: none; 
   }
 }
 
